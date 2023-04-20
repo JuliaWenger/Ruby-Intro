@@ -33,7 +33,8 @@ puts "The total is: #{total}"
 
 if total == 7 || total == 11
     puts "WINNER"
-
+elsif total == 2 || total == 3 || total == 12
+    puts "craps"
 else
     puts "keep rolling"
 end
