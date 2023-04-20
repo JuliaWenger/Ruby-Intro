@@ -26,7 +26,20 @@ p foods [3]
 puts foods [-1]
 puts foods [-2]
 # if using negative numbers then it loops back to the end of the string and goes backward from there
+puts shopping_lists.size
+# there are two "things" in the shopping list (lists of lists not items)
+# to find coffee 
+puts shopping_lists[1][0]
+# when pulling from inside array list within a list you add []brackets next to each other
+
 # Add to the array
+foods.push("salad")
+p foods
+# push just adds directly into the array, instead of using "push" you can use "append"
+foods.append("ice cream")
+p foods
+# can also use the "shovel" << which "shovels it into the array"
+# ACCESSING THINGS OUT OF ARRAYS? --> use square brackets []
 
 # There are lots of fun things you can do with arrays:
 # https://ruby-doc.org/core-2.7.0/Array.html
