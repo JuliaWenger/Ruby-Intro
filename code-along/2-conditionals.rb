@@ -32,9 +32,9 @@
     puts "try again"
  end
 
-
+password == "kittens"
 # Elsif Conditional Logic
-home_team = 1
+home_team = 2
 away_team = 2
 if home_team > away_team 
     puts "winner!!"
